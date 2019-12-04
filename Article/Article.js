@@ -85,6 +85,15 @@ const data = [
     thirdP: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Lisas new stuff',
+    date: 'Jan 1st, 2019',
+    firstP: `Woops poop hanging from butt must get rid run run around house drag poop on floor maybe it comes off woops left brown marks on floor human slave clean lick butt now lick the curtain just to be annoying but jump off balcony, onto stranger's head nap all day, or meow for food, then when human fills food dish, take a few bites of food and continue meowing dismember a mouse and then regurgitate parts of it on the family room floor. `,
+
+    secondP: `Stare at ceiling give attitude when in doubt, wash. Chase the pig around the house make it to the carpet before i vomit mmmmmm dismember a mouse and then regurgitate parts of it on the family room floor kitty poochy purr as loud as possible, be the most annoying cat that you can, and, knock everything off the table yet scratch the box. Eat an easter feather as if it were a bird then burp victoriously, but tender taco cat backwards spells taco cat hide head under blanket so no one can see. Rub face on everything the cat was chasing the mouse. `,
+
+    thirdP: `White cat sleeps on a black shirt meow meow favor packaging over toy, leave hair on owner's clothes and spend all night ensuring people don't sleep sleep all day. Woops poop hanging from butt must get rid run run around house drag poop on floor maybe it comes off woops left brown marks on floor human slave clean lick butt now. My slave human didn't give me any food so i pooped on the floor hiding behind the couch until lured out by a feathery toy make muffins. Murf pratt ungow ungow this human feeds me, i should be a god. Knock over christmas tree cats secretly make all the worlds muffins paw at beetle and eat it before it gets away purr like an angel, slap owner's face at 5am until human fills food dish. `
   }
   
 ];
@@ -133,7 +142,7 @@ function newsfeedCreator(articleTitle, articleDate, p1, p2, p3) {
   buttonOpen.classList.add('close');
   buttonClose.classList.add('close');
 
-  const open = '\u25bc';
+  const open = '\u25bd';
   const close = '\u25b2';
 
 
